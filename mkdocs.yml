@@ -1,16 +1,16 @@
-site_name: Web3Gate Doc
+site_name: EC Business Doc
 theme:
   name: material
-  logo: assets/logos/white.png
-  favicon: assets/logos/default.png
-nav:
-  - Introduction: /
-  - Installation: /installation
-  - Setup: /setup
-  - Payment: /payment
-  - Dependencies: /source-credit
-  - Change Log: /change-log
-  - Error Troubleshoot: /error-troubleshoot
+  logo: assets/logos/favicon.svg
+  favicon: assets/logos/favicon.svg
+# nav:
+#   - Introduction: /
+#   - Installation: /installation
+#   - Setup: /setup
+#   - Payment: /payment
+#   - Dependencies: /source-credit
+#   - Change Log: /change-log
+#   - Error Troubleshoot: /error-troubleshoot
 extra:
   generator: false
   social:
