@@ -13,7 +13,7 @@
     
     
       
-        <title>Change Log - EC Business Doc</title>
+        <title>Setup - EC Business Doc</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#change-log" class="md-skip">
+        <a href="#setup" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Change Log
+              Setup
             
           </span>
         </div>
@@ -350,8 +350,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#initial-release" class="md-nav__link">
-    Initial Release
+  <a href="#blockchain-network" class="md-nav__link">
+    Blockchain Network
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staking-pool-contract-deployment" class="md-nav__link">
+    Staking Pool contract deployment
   </a>
   
 </li>
@@ -371,13 +378,33 @@
                   
 
 
-<h1 id="change-log">Change Log</h1>
-<h2 id="initial-release">Initial Release</h2>
+<h1 id="setup">Setup</h1>
+<p>In this section, we will explain what you need to setup your applicaiton</p>
+<h2 id="blockchain-network">Blockchain Network</h2>
+<p>Setting up blockchain networks means you are adding a network RPC configuration which is going to be available for users to select from.</p>
 <blockquote>
-<p>Version 1.0 <br>
-Date: 9.12.2022</p>
+<p><strong>Note</strong>: this software currently supports EVM based blockchain and to intereact with Bitcoin you will have to get a <a href="https://blockchain.com/explorer/api">blockchain API Key</a></p>
 </blockquote>
-<p>EC Business initial release.</p>
+<p>During the installation process, some blockchain networks are seeded to your database.</p>
+<p>You can also more by following the steps below:</p>
+<ol>
+<li>Login and navigate to the admin panel</li>
+<li>On the sidebar, click <code>blockchain &gt; networks</code> navigation link</li>
+<li>There you can perform CRUD operation on the blockchain network.</li>
+</ol>
+<blockquote>
+<p><strong>Note</strong>: Only, admin user have access to this module</p>
+</blockquote>
+<h2 id="staking-pool-contract-deployment">Staking Pool contract deployment</h2>
+<p>For users to be able to launch a staking pool for their token, first you will need to deploy the staking pool smart contract to the blockchain network you have added.</p>
+<p>To deploy the smart contract:</p>
+<ol>
+<li>Login and navigate to the admin panel</li>
+<li>On the sidebar, click <code>blockchain &gt; smart contracts</code> navigation link</li>
+<li>In the contract page click <code>Deploy</code> button</li>
+<li>In the open modal, connect to your web3 wallet by clicking the <code>connect wallet</code> button, select the network you are deploying to, select contract type</li>
+<li>And click the <code>Deploy</code> button</li>
+</ol>
 
 
 
